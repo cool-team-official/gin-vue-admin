@@ -14,6 +14,8 @@ WORKDIR /web
 COPY web/ ./
 RUN yarn install && yarn run build
 
+123
+
 
 FROM nginx:alpine
 LABEL MAINTAINER="rikugun"
